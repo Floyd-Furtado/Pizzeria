@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Pizzeria</title>
+        <link rel="stylesheet" type="text/CSS" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="topnav">
+        <a class="active" href="#">Pizzeria</a>
+        <div class="topnav-right">
+         <a href="#viewblock">View Menu</a>
+        </div>
+        
+        <div class="row" id="viewblock">
+            <div class="img_div"> 
+                <img class="img-responsive" src="pizza.png">
+            </div>
+            
+            <div class="menu_div">
+            <input type="text" placeholder="Enter the Pizza name" id="pizza_name"> 
+            <br> <br>   
+        
+
+        <button id="menu_list" onclick="getMenu()">Show Menu</button>
+
+        <div id="display_menu" style="font-weight:bold">
+        
+           </div>
+        </div>
+    </body>
+</html>
