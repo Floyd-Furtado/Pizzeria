@@ -36,6 +36,12 @@ body{
 	display: table;
   }
 
+  .topping_div{
+	float: center;
+	width: 60%;
+	padding: 5px;
+  }
+
   .img_div{
 	float: left;
 	width: 50%;
@@ -45,18 +51,15 @@ body{
 	float: right;
 	width: 50%;
 	padding: 50px;
-	color: rgb(14, 0, 0);
+	color: honeydew;
 	font-size: 25px;
 	font-family: cursive;
-	font-weight: bolder;
   }
   #menu_list{
-	float:none;
 	background-color:#f5c71a;
 	color:black; 
-	width: 40%;
+	width: 200px;
 	border: none;
-	margin: 10px 70px;
   }
 
   .newRow::after {
@@ -65,27 +68,53 @@ body{
 	display: table;
 }
 
+  .block1{
+	float: left;
+	width: 20%;
+	padding: 5px;
+  }
+  .block2{
+	float: left;
+	width: 80%;
+	padding: 5px;
+	color: honeydew;
+	font-size: 25px;
+	font-family: cursive;
+  }
+
+  #add_toppings{
+	/* padding-left:30px; */
+	width:150px;
+	height:60px;
+	border: none;
+	background-color:#e2062c;
+	color:black;
+	font-size: 15px;
+	font-family: cursive;
+  }
+
+  #add_item {
+	font-family: cursive;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 20px;
+	width: 80%;
+	height: 50px;
+	color: #ffffff;
+    background: none;
+    border: none;
+    border-bottom: 3px solid rgb(2, 253, 56);
+    outline: none;
+ }
+
 [placeholder]:focus::-webkit-input-placeholder {
     transition: text-indent 1.5s 1.5s ease; 
-    text-indent: -200%;
+    text-indent: -100%;
 	opacity: 1;
-	color: rgb(0, 5, 1);
+	color: rgb(2, 253, 56);
  }
 
 #im1{
 	width:100px;
 	height: 80px;
-}
-
-#submit_button
-{
-	float: right;
-	margin-top: 10px; 
-	margin-bottom: 20px; 
-	padding: 10px 10px 10px 10px;
-}
-
-input
-{
-	margin: 3px;
 }

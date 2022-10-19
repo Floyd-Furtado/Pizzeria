@@ -18,14 +18,16 @@
             
             <div class="menu_div">
             <input type="text" placeholder="Enter the Pizza name" id="pizza_name"> 
-            <br> <br>   
-        
+            <br> <br>  
 
-        <button id="menu_list" onclick="getMenu()">Show Menu</button>
+        <div class="menu_div" id="addTopings">
+            <input id="add_item" placeholder="RECOMMEND A PIZZA!"> <br><br>
 
-        <div id="display_menu" style="font-weight:bold">
-        
-           </div>
+            <button id="Add_Pizza_Suggestion" onclick="add_suggestion()">Add Pizza Suggestion</button>
+
+        <button id="menu_list" onclick="getmenu()">Show Menu</button>
+
+        <div class="menu_div" id="display_menu"></div>
         </div>
     </body>
 </html>
